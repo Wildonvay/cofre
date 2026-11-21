@@ -1,0 +1,22 @@
+COFRE versão 1.2 - tema Militar Industrial
+
+O que há neste pacote
+- index.html: o app inteiro (tema, telas e regras).
+- fundos/: as seis imagens de fundo do kit, convertidas para WebP leve, com os nomes originais.
+- manifest.webmanifest, sw.js e os três ícones: instalação no celular e uso sem internet.
+
+Como publicar no GitHub Pages
+1. Crie um repositório público chamado "cofre" (um repositório por app).
+2. Em "Add file" > "Upload files", arraste TUDO o que está nesta pasta, inclusive a pasta "fundos"
+   inteira (arraste a pasta, não os arquivos de dentro dela). Confirme em "Commit changes".
+3. Em Settings > Pages, escolha o branch "main" e a pasta "/ (root)". Salve.
+4. O app abre em https://SEU-USUARIO.github.io/cofre/
+5. No celular, abra o endereço no Chrome e use "Adicionar à tela inicial".
+
+Como voltar ao visual anterior
+- Guarde o pacote da versão 1.1. Para reverter, envie o index.html e o sw.js da 1.1 por cima.
+  Os dados não mudam: o tema não altera o que está gravado no aparelho.
+
+Importante
+- Os dados ficam só no aparelho, cifrados com a sua senha. Não existe recuperação de senha.
+- A aparência de cofre é só aparência: a proteção vem da senha, da cifragem e dos backups.
